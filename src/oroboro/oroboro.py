@@ -26,7 +26,6 @@
 # (c) 2004-2025
 #
 
-# from src.Loop import BaseLoop
 from .loop import BaseLoop
 
 import string
