@@ -1,8 +1,8 @@
 import pytest
 from datetime import datetime, timedelta
 
-from src.Oroboro import Event, ObserverEvent, Timeout, NoReason, Oroboro
-from src.TE import *
+from src.oroboro.oroboro import Event, ObserverEvent, Timeout, NoReason, Oroboro
+from src.oroboro.te import *
 
 #
 # Define an empty cycle.
