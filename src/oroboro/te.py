@@ -25,7 +25,8 @@
 #    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA
 #
 
-from src.Oroboro import Task, Timeout, Event, WaitEvent, Status, currenttime, currenttask, currentreason, currentreasonindex
+# from src.Oroboro import Task, Timeout, Event, WaitEvent, Status, currenttime, currenttask, currentreason, currentreasonindex
+from .oroboro import Task, Timeout, Event, WaitEvent, Status, currenttime, currenttask, currentreason, currentreasonindex
 import types
 import pprint
 

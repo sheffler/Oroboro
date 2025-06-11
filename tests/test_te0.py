@@ -9,8 +9,8 @@
 
 import pytest
 
-from src.Oroboro import Event, ObserverEvent, Timeout, Oroboro
-from src.TE import *
+from src.oroboro.oroboro import Event, ObserverEvent, Timeout, Oroboro
+from src.oroboro.te import *
 
 
 #

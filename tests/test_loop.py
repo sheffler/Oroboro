@@ -5,7 +5,7 @@
 
 import pytest
 
-from src.Loop import BaseLoop
+from src.oroboro.loop import BaseLoop
 
 
 def test_loop_basic():

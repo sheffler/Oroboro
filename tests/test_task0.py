@@ -10,7 +10,7 @@
 
 import pytest
 
-from src.Oroboro import Task, Timeout, Event, WaitEvent, Status, Oroboro, loop, currenttime, currenttask, currentreason, currentreasonindex
+from src.oroboro.oroboro import Task, Timeout, Event, WaitEvent, Status, Oroboro, loop, currenttime, currenttask, currentreason, currentreasonindex
 
 
 def test_tasks_basic_one():
